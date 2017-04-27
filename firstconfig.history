@@ -1,0 +1,96 @@
+    1  sudo apt-get update
+    2  sudo apt-get upgrade
+    3  sudo apt-get -f install
+    4  sudo apt-get upgrade
+    5  sudo apt-get update
+    6  sudo apt-get upgrade
+    7  sudo apt-get autoremove
+    8  sudo apt-get upgrade
+    9  sudo apt-get update
+   10  sudo apt-get upgrade
+   11  sudo apt-get clean
+   12  sudo apt-get update
+   13  sudo apt-get upgrade
+   14  exit
+   15  sudo apt-get update
+   16  sudo apt-get upgrade
+   17  exit
+   18  sudo su
+   19  exit
+   20  git
+   21  git config user.name "acavataio"
+   22  git clone
+   23  git clone https://github.com/acavataio/ITC-136
+   24  git config user.name "acavataio"
+   25  ls -l
+   26  cd ITC-136
+   27  git config user.name "acavataio"
+   28  history
+   29  git config user.name "acavataio"
+   30  sudo apt-get update
+   31  sudo apt-get upgrade
+   32  git config user.name "acavataio"
+   33  mkdri git-repos
+   34  mkdir git-repos
+   35  cd git-repos
+   36  git clone https://github.com/acavataio/ITC-136
+   37  cd acavataio
+   38  ls
+   39  cd ITC-136
+   40  git checkout -b test
+   41  git status
+   42  git branch
+   43  git status
+   44  git branch
+   45  git branch master
+   46  git checkout readme.md
+   47  git checkout README.md
+   48  git checkout master
+   49  git branch -D test
+   50  git add README.md
+   51  git status
+   52  git cinnut README.md
+   53  git commit README.md
+   54  git status
+   55  git checkout -b test
+   56  git status
+   57  git commit README.md
+   58  git config --global user.name "acavataio"
+   59  git commit README.md
+   60  git config --global user.email "anthony.cavataio@seattlecolleges.edu"
+   61  git config --global user.name "acavataio"
+   62  git commit README.md
+   63  git add README.md
+   64  git status
+   65  git checkout README.md
+   66  git add README.md
+   67  git status
+   68  git log --branches --not --remotes
+   69  git push origin test
+   70  git config --global credential.helper 'cache --timeout=7200'
+   71  git checkout master
+   72  git pull origin master
+   73  git branch -d test
+   74  git branch -D test
+   75  git
+   76  exit
+   77  git
+   78  git clone http://github.com/acavataio.ITC-136.git
+   79  git clone http://github.com/acavataio/ITC-136.git
+   80  ls-ltra
+   81  ls
+   82  cd ITC-136
+   83  ls-ltra
+   84  ls -ltrf
+   85  ls -ltra
+   86  ls -la
+   87  cd .git
+   88  ls -la
+   89  git config --global user.email "anthony.cavataio@seattlecolleges.edu"
+   90  git config --global user.name "acavataio"
+   91  history >>firstconfig.history
+   92  ls
+   93  ls -l
+   94  git add firstconfig.history
+   95  cd ..
+   96  history >>firstconfig.history
