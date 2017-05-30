@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=0.1
+Name=Stats
+Comment=generated program
+Exec=/user/bin/gnome-terminal -e /usr/local/bin/stats
+Icon=/home/itc136/Pictures/bunny.png
+Terminal=true
+Type=Application
+Categories=Utility;Application;
