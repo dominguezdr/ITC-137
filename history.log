@@ -1,0 +1,42 @@
+    1  sudo su
+    2  sudo pkill -KILL -u nicole
+    3  lastlog | less
+    4  cd /usr
+    5  dir
+    6  cd /local
+    7  cd /usr/local
+    8  ls
+    9  cd /usr/local/share
+   10  ls
+   11  cd ~
+   12  whereami
+   13  sudo apt install whereami
+   14  cd //home/student/public
+   15  cd /home/student/public
+   16  cd /.
+   17  cd /home/student/public
+   18  ls
+   19  cd home
+   20  lst
+   21  ls
+   22  cd student
+   23  ls -l
+   24  cd Public
+   25  history >> history.log
+    1  apt-get install vim
+    2  apt-get install openssh-server\
+    3  apt-get install openssh-server
+    4  cd /etc/ssh
+    5  ls -ltra
+    6  cp sshd_config sshd_config.orig
+    7  vim sshd_config
+    8  pwd
+    9  ls -l
+   10  diff sshd_config sshd_config.orig
+   11  vim sshd_config
+   12  systemctl restart sshd
+   13  sudo adduser nicole
+   14  usermod -aG sudo nicole
+   15  su nicole
+   16  exit
+   17  history >> history.log
