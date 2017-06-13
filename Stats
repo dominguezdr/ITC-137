@@ -1,0 +1,14 @@
+#!/bin/bash
+
+diskused=$( df -h | grep "/dev/sda1" | awk '{print $5}' ) #uses df cmd to find space used on sda1
+memfree=$( free -mh | grep Mem: | awk '{print $7}' )      #uses free cmd to find free ram 
+connections=$( netstat | grep tcp )                       #lists all active tcp connections to machine
+users=$( who | awk '{print $1}' )                         #users lists all logged in users
+
+
+echo -en "This is a snapshot of your current system:
+            \e[49m                   \e[46mDisk Used: $diskused \e[49m
+            \e[49m                 \e[48mFree Memory: $memfree \e[49m
+            \e[49m            \e[101mLogged in Users: $users \e[49m
+            \e[49m  \e[105mOpen Internet Connections: $connections \e[49m
+"
